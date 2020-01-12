@@ -93,7 +93,7 @@ Rails.application.configure do
   config.active_record.dump_schema_after_migration = false
 
 
-  config.action_mailer.default_url_options = { host: 'dashboard.heroku.com/apps/safe-coast-38337' }
+  config.action_mailer.default_url_options = { host: 'safe-coast-38337' }
 ActionMailer::Base.delivery_method = :smtp
 ActionMailer::Base.smtp_settings = {
   user_name: ENV['SENDGRID_USERNAME'],
